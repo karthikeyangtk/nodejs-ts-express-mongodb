@@ -1,0 +1,10 @@
+{
+  "port" : "8000",
+  "mongodb" : {
+    "host": "localhost",
+    "port": "27017",
+    "database": "mcq",
+    "username": "adminmcq",
+    "password": "passmcq"
+  }
+}

@@ -9,12 +9,12 @@
 In future.    If you want to install a package, do so. Kindly
 
 *     `npm i packageName --save` for `dependencies`
-*     `npm i packageName --save --dev` for `devDependencies`
+*     `npm i packageName -D` for `devDependencies`
 
 This project contains TypeScript. So, kindly use
 
 *     `npm i @types/packageName --save ` for `dependencies`
-*     `npm i @types/packageName --save --dev` for `devDependencies`
+*     `npm i @types/packageName -D` for `devDependencies`
 
 Here I use `nodemon`. It will automatically restart your server.
 

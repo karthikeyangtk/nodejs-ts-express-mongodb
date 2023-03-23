@@ -210,7 +210,7 @@ export const getList = async (req: Request, res: Response) => {
     });
 
     const data = await userSchema.aggregate(userQuery);
-    return res.status(500).json({ status: "1", data });
+    return res.status(200).json({ status: "1", data });
   } catch (error) {
     console.error(`Error in get list ${error}`);
     return res.status(500).json({ status: "0", message: error });
